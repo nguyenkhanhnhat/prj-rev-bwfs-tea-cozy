@@ -31,12 +31,11 @@ header nav a {
 }
 
 #content {
-  display: block;
+  display:block;
   width: 100%;
-  margin-top: 71px;
-  padding-top: 0;
-  position: relative;
-
+  position: absolute;
+  top: 72px;
+  z-index: 1;
 }
 
 .mission {
